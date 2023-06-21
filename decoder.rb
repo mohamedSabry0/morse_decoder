@@ -38,3 +38,4 @@ def decode_message(word)
 end
 
 puts decode_message("-- -.--   -. .- -- .")
+puts decode_message(".-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...")
