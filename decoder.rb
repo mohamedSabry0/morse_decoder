@@ -18,3 +18,13 @@ def decode_char(char)
   }
   dictionary[char]
 end
+
+def decode_word(word)
+  result = ''
+  word.split.each do |char|
+    result.concat(decode_char(char))
+  end
+  result
+end
+
+puts decode_word('-- -.--')
