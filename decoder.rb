@@ -27,8 +27,6 @@ def decode_word(word)
   result
 end
 
-# puts decode_word('-- -.--')
-
 def decode_message(word)
   result = ''
   word.split('   ').each do |char|
