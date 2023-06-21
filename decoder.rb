@@ -37,5 +37,5 @@ def decode_message(word)
   result
 end
 
-puts decode_message("-- -.--   -. .- -- .")
-puts decode_message(".-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...")
+puts decode_message('-- -.--   -. .- -- .')
+puts decode_message('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
