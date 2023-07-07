@@ -30,7 +30,7 @@ end
 def decode_message(word)
   result = ''
   word.split('   ').each do |char|
-    result.concat(decode_word(char), ' ')
+    result.concat(decode_word(char))
   end
   result
 end
